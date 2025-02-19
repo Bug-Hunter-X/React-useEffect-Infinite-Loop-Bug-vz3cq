@@ -1,0 +1,1 @@
+This repository demonstrates a common React bug involving the `useEffect` hook.  The initial implementation of `MyComponent` results in an infinite loop because a dependency is missing from the `useEffect` call. The solution shows how to fix this by correctly including `count` as a dependency.
